@@ -1,0 +1,6 @@
+argparse
+pandas
+transformers
+torch
+trl
+git+https://github.com/unslothai/unsloth.git
