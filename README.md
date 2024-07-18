@@ -1,6 +1,10 @@
 # Fine_Tune_QA
 Fine tune LLM on HuggingFace dataset for Question-Answering
 
+### Dependencies
+```bash
+pip install requirments.txt
+```
 ### Dataset Preparation
 ```bash
 python Pre-Processing_Dataset.py --dataset Mreeb/Dermatology-Question-Answer-Dataset-For-Fine-Tuning --split train --drop_columns prompt_word_count response_word_count --output_file data.csv
